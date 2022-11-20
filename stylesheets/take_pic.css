@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: RedHatDisplay-SemiBold;
+  src: url("../fonts/RedHatDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: RedHatDisplay-Bold;
+  src: url("../fonts/RedHatDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: RedHatDisplay-ExtraBold;
+  src: url("../fonts/RedHatDisplay-ExtraBold.ttf");
+}
+@font-face {
+  font-family: RedHatDisplay-Regular;
+  src: url("../fonts/RedHatDisplay-Regular.ttf");
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.container {
+  padding: 0px 15px 40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#video {
+  width: 100%;
+}
+#startbutton {
+  display: inline-block;
+  background-color: #1B3079;
+  width: 100%;
+  text-align: center;
+  font-family: RedHatDisplay-Regular;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0;
+  border: 0;
+  text-decoration: none;
+}
+#backButton {
+  border-radius: 6px;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  z-index: 1;
+  width: 23px;
+  height: 23px;
+  display: inline-flex;
+  align-items: center;
+  justify-content:  center;
+  box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.75);
+  cursor: pointer;
+  background-color: #fff;
+}
+#backButton img {
+  width: 17px;
+  height: 17px;
+}
+.camera {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  top: 0;
+}
+.eye img {
+  opacity: 0.2;
+}

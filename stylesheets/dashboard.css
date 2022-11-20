@@ -57,6 +57,7 @@ html, body {
   line-height: 1.1;
   transition: 0.1s background-color, 0.1s box-shadow;
   color: #fff;
+  text-decoration: none;
 }
 .btn:hover:active {
   box-shadow: none;

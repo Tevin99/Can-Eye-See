@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="stylesheets/warning.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a id="backButton"><img src="images/Caret.png"></a>
+      <p style="color: #fff;">My Eye Records</p>
+      <div class="blank_area"></div>
+    </div>
+    <div class="content">
+      <div class="warning-container">
+        <div class="warning-header">
+          <img src="images/warning.png">
+          <h2>Warning</h2>
+          <img src="images/warning.png">
+        </div>
+        <div class="warning-body">
+          <p>We suggest you go see a doctor immediately. Your eyes’ cloudiness level is beyond normal stage.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  document.querySelector("#backButton").addEventListener("click", () => history.back());
+</script>
+</html>

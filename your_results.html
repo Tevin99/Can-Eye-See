@@ -9,20 +9,36 @@
 </head>
 <body>
   <div class="container">
-    <div class="title">
-      <p>Your results</p>
+    <div class="header">
+      <a id="backButton" href="dashboard.html"><img src="images/Caret.png"></a>
+      <p>Your Results</p>
+      <div class="blank_area"></div>
+    </div>
+    <div class="img-wrapper">
       <img src="images/result_eye.png">
     </div>
-    <p>November 12, 2022 6:38PM</p>
-    <p>Redness Level</p>
-    <p>Yellowness Level</p>
-    <p>Cloudiness Level</p>
-    <p>Bloodshot Level</p>
-
-    <div class="btn--container">
-        <button class="btn btn-primary" id="Examine">Next</button>
+    <p class="paragraph center-text">November 12, 2022 6:38PM</p>
+    <div class="bar-indicators">
+      <div class="indicator-container">
+        <p class="paragraph">Redness Level</p>
+        <div class="indicator color-redness"></div>
+      </div>
+      <div class="indicator-container">
+        <p class="paragraph">Yellowness Level</p>
+        <div class="indicator color-yellowness"></div>
+      </div>
+      <div class="indicator-container">
+        <p class="paragraph">Cloudiness Level</p>
+        <div class="indicator color-cloudiness"></div>
+      </div>
+      <div class="indicator-container">
+        <p class="paragraph">Bloodshot Level</p>
+        <div class="indicator color-bloodshot"></div>
+      </div>
     </div>
-  
+    <div class="btn--container">
+        <a class="btn btn-primary" href="warning.html" id="Examine">Next</a>
+    </div>
   </div>
 </body>
 </html>

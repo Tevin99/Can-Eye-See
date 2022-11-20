@@ -44,14 +44,19 @@ html, body {
   max-height: 100%;
 }
 #backButton {
-  width: 10px;
-  height: 18px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 .card--container {
   width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 25px;
+  overflow-y: auto;
 }
 .card {
   border-radius: 12px;
@@ -123,21 +128,44 @@ html, body {
   left: 0;
   top: 0;
 }
+.percent-10::after {
+  width: 10%;
+}
+.percent-20::after {
+  width: 20%;
+}
+.percent-30::after {
+  width: 30%;
+}
+.percent-40::after {
+  width: 40%;
+}
+.percent-50::after {
+  width: 50%;
+}
+.percent-60::after {
+  width: 60%;
+}
+.percent-70::after {
+  width: 70%;
+}
+.percent-80::after {
+  width: 80%;
+}
+.percent-90::after {
+  width: 90%;
+}
 .bar-redness::after {
   background-color: #F3BDE1;
-  width: 65%;
 }
 .bar-yellowness::after {
   background-color: #F1D46C;
-  width: 40%;
 }
 .bar-cloudiness::after {
   background-color: #B1CEF9;
-  width: 20%;
 }
 .bar-bloodshot::after {
   background-color: #EE6868;
-  width: 70%;
 }
 #addBtn {
   position: absolute;
