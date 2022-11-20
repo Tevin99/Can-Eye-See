@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+}
+h1 {
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  font-weight: 600;
+  color: #3E4AB6;
+}
+img {
+    display: block;
+    width: 251;
+    height: 240;
+}
