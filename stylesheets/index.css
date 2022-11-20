@@ -1,6 +1,10 @@
 @font-face {
-  font-family: Montserrat-SemiBold;
-  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-family: RedHatDisplay-SemiBold;
+  src: url("../fonts/RedHatDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: RedHatDisplay-Bold;
+  src: url("../fonts/RedHatDisplay-Bold.ttf");
 }
 
 html, body {
@@ -15,12 +19,13 @@ html, body {
   align-items: center;
   width: inherit;
   height: inherit;
+  background-color: #fff;
 }
 h1 {
   text-align: center;
-  font-family: Montserrat-SemiBold;
+  font-family: RedHatDisplay-SemiBold;
   font-weight: 600;
-  color: #3E4AB6;
+  color: #6B54AB;
 }
 img {
     display: block;
