@@ -33,7 +33,12 @@ html, body {
 #video {
   width: 100%;
 }
-#startbutton {
+.camera {
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.disclaimer {
   display: inline-block;
   background-color: #1B3079;
   width: 100%;
@@ -44,6 +49,15 @@ html, body {
   padding: 5px 0;
   border: 0;
   text-decoration: none;
+}
+#startbutton {
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-color: #EDEFF4;
+  border-radius: 50%;
+  border: 5px solid #A9AFC1;
+  margin-top: 50px;
 }
 #backButton {
   border-radius: 6px;
